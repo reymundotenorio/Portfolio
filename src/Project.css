@@ -1,0 +1,139 @@
+.portfolio {
+  padding: 40px 0px;
+}
+
+.portfolio h3 {
+  color: #041c82;
+  text-align: center;
+  font-size: 30px;
+}
+
+.portfolio .portfolio-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.portfolio .portfolio-container .project-card {
+  border-radius: 0px;
+  -webkit-box-shadow: 0px 13px 21px -5px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 13px 21px -5px rgba(0, 0, 0, 0.4);
+  width: 100%;
+  max-width: 480px;
+  margin: 15px auto;
+}
+
+.portfolio .portfolio-container .project-card .image-container {
+  background-color: #fff;
+  padding: 15px;
+  min-height: 125px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.portfolio .portfolio-container .project-card .info-container {
+  text-align: center;
+  padding: 15px;
+  background: #041c82;
+  background: linear-gradient(45deg, #041c82 0%, #00122b 65%, #440784 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#041c82", endColorstr="#440784",GradientType=1 );
+}
+
+.portfolio .portfolio-container .project-card .info-container p {
+  margin: 0px;
+  color: #fff;
+}
+
+.portfolio .portfolio-container .project-card .info-container p.name {
+  font-weight: bold;
+}
+
+.portfolio .portfolio-container .project-card .info-container p.name span {
+  display: block;
+}
+
+.portfolio .portfolio-container .project-card .info-container p.description {
+  font-weight: 300;
+}
+
+.portfolio .portfolio-container .project-card .info-container .link-container {
+  text-align: center;
+  padding: 15px 0px;
+}
+
+.portfolio .portfolio-container .project-card .info-container .link-container a {
+  color: #fff;
+}
+
+.portfolio .portfolio-container .project-card .stack-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding: 15px 0px 0px;
+  border-top: 1px solid #fff;
+}
+
+.portfolio .portfolio-container .project-card .stack-container .stack {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  padding: 8px;
+}
+
+@media (min-width: 768px) {
+  .portfolio h3 {
+    font-size: 34px;
+  }
+  .portfolio .portfolio-container {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  .portfolio .portfolio-container .project-card {
+    width: calc(50% - 30px);
+  }
+}
+
+@media (min-width: 992px) {
+  .portfolio .portfolio-container .project-card {
+    width: calc(33.33% - 30px);
+    margin: 15px;
+    max-width: none;
+  }
+}

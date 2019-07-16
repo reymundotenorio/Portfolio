@@ -1,8 +1,8 @@
 import React from "react";
 import develop from "./img/develop.svg";
-import "./App.css";
+import "./Intro.css";
 
-function App() {
+function Intro() {
   return (
     <section className="intro">
       <div className="container">
@@ -25,4 +25,4 @@ function App() {
   );
 }
 
-export default App;
+export default Intro;
