@@ -1,33 +1,125 @@
-.App {
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap");
+body {
+  background-color: #eaebec;
+  font-family: "Source Sans Pro", sans-serif;
+  font-style: normal;
+  font-size: 20px;
+  color: #222222;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: #fff;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  line-height: 1.3;
+  text-transform: uppercase;
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.img-responsive {
+  margin: 0 auto;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+p {
+  color: #222222;
+  line-height: 1.3;
+  word-wrap: break-word;
 }
 
-.App-link {
-  color: #61dafb;
+a {
+  color: #440784;
+  line-height: 1.3;
+  text-decoration: none;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+a:hover,
+a:active,
+a:focus {
+  color: #440784;
+  text-decoration: underline;
+}
+
+::-moz-selection {
+  background: #000;
+  color: #fff;
+}
+
+::selection {
+  background: #000;
+  color: #fff;
+}
+
+.intro {
+  background: #041c82;
+  background: -webkit-gradient(linear, left top, left bottom, from(#041c82), color-stop(65%, #00122b), to(#440784));
+  background: linear-gradient(to bottom, #041c82 0%, #00122b 65%, #440784 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#041c82", endColorstr="#440784",GradientType=0 );
+  padding: 40px 0px;
+}
+
+.intro h1 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 42px;
+}
+
+.intro h1 span {
+  display: block;
+}
+
+.intro h2 {
+  text-align: center;
+  font-weight: normal;
+  font-size: 32px;
+}
+
+.intro .image-container {
+  padding-top: 40px;
+  max-width: 480px;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .intro {
+    background: #041c82;
+    background: linear-gradient(45deg, #041c82 0%, #00122b 65%, #440784 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#041c82", endColorstr="#440784",GradientType=1 );
   }
-  to {
-    transform: rotate(360deg);
+  .intro .flex-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  .intro h1 {
+    text-align: left;
+    font-size: 50px;
+    margin-top: 0px;
+  }
+  .intro h2 {
+    text-align: left;
+    font-size: 38px;
+    margin-bottom: 0px;
+  }
+  .intro .image-container {
+    padding-top: 0px;
+    max-width: none;
   }
 }
