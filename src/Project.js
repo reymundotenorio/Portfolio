@@ -6,17 +6,17 @@ function Project() {
   return (
     <div className="project-card">
       <div className="image-container">
-        <img src="img/albretch-group-logo.png" className="img-responsive" alt="Logo" />
+        <img src={this.props.logo} className="img-responsive" alt={this.props.name} />
       </div>
 
       <div className="info-container">
         <p className="name">
-          <span>The Albrecht Group</span> <span>Career site</span>
+          <span>{this.props.name}</span> <span>Career site</span>
         </p>
 
         <div className="link-container">
-          <a href="#" title="https://www.agroupnc.com/" target="_blank">
-            https://www.agroupnc.com/
+          <a href={this.props.url} title={this.props.url} target="_blank">
+          {this.props.url}
           </a>
         </div>
 
