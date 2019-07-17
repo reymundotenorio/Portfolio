@@ -1,26 +1,36 @@
 // Movies API
 const Data = [
   {
-    id: "01",
+    id: "cs01",
     name: "The Albrecht Group",
+    type: "Career site",
     url: "https://www.agroupnc.com/",
-    stack: ["HTML5", "CSS3", "Bootstrap", "Sass", "Photoshop"],
-    logo: "albretch-group-logo.png"
+    logo: "The-Albrecht-Group.png",
+    stacks: ["HTML5", "CSS3", "Bootstrap", "Sass", "Photoshop"]
   },
   {
-    id: "02",
-    name: "The Albrecht Group",
-    url: "https://www.agroupnc.com/",
-    stack: ["HTML5", "CSS3", "Bootstrap", "Sass", "Photoshop"],
-    logo: "albretch-group-logo.png"
+    id: "cs02",
+    name: "ProSource Wholesale",
+    type: "Career site",
+    url: "https://prosourcewholesale.jobs.net/",
+    logo: "ProSource-Wholesale.png",
+    stacks: ["HTML5", "CSS3", "Bootstrap", "Sass", "Photoshop"]
   },
-
   {
-    id: "03",
-    name: "El fly",
-    url: "https://www.agroupnc.com/",
-    stack: ["HTML5", "CSS3", "Bootstrap", "Sass", "Photoshop"],
-    logo: "albretch-group-logo.png"
+    id: "cs03",
+    name: "Spin Master",
+    type: "Career site",
+    url: "https://www.spinmastercareers.com/",
+    logo: "Spin-Master.png",
+    stacks: ["HTML5", "CSS3", "Bootstrap", "Sass", "Photoshop"]
+  },
+  {
+    id: "cs04",
+    name: "Teleperformance Greece",
+    type: "Career site",
+    url: "https://careers.teleperformance.gr/",
+    logo: "Teleperformance-Greece.png",
+    stacks: ["HTML5", "CSS3", "Bootstrap", "Sass", "Photoshop"]
   }
 ];
 

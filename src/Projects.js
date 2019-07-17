@@ -1,7 +1,7 @@
 import React from "react";
 import "./Projects.css";
-import Project from "./Project";
 import Data from "./projectsAPI";
+import Project from "./Project";
 
 class Projects extends React.Component {
   constructor(props) {
@@ -16,10 +16,16 @@ class Projects extends React.Component {
     return (
       <React.Fragment>
         {this.state.data.map(item => {
-          console.log(item);
-          
           return (
-            <Project key={item.id} name={item.name} url={item.url} stack={item.stack} logo={item.logo} />
+            <Project
+              key={`project_${item.id}`}
+              id={item.id}
+              name={item.name}
+              type={item.type}
+              url={item.url}
+              logo={item.logo}
+              stacks={item.stacks}
+            />
           );
         })}
       </React.Fragment>
