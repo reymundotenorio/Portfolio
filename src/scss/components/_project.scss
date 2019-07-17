@@ -60,11 +60,12 @@
         padding: 20px 0px 15px;
 
         a {
+          font-size: 15px;
           color: $white;
           text-decoration: underline;
           opacity: 1;
 
-          @include on-event{
+          @include on-event {
             opacity: 0.6;
           }
         }
@@ -75,7 +76,15 @@
 
 @media (min-width: 768px) {
   .project-container {
-    // width: calc(50% - 30px);
+    .card {
+      .info-container {
+        .link-container {
+          a {
+            font-size: 20px;
+          }
+        }
+      }
+    }
   }
 }
 

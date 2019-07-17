@@ -10,7 +10,10 @@ class Intro extends React.Component {
               <h1>
                 <span>I'm</span> <span>Reymundo</span> <span>Tenorio</span>
               </h1>
-              <h2>Software Developer</h2>
+
+              <div className="title-container">
+                <h2>Software Developer</h2>
+              </div>
             </div>
 
             <div className="col-xs-12 col-sm-6">

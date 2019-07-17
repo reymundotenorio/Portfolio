@@ -13,10 +13,18 @@
     }
   }
 
-  h2 {
+  .title-container {
     text-align: center;
-    font-weight: normal;
-    font-size: 32px;
+
+    h2 {
+      font-weight: normal;
+      font-size: 32px;
+      display: inline-block;
+
+      border-right: 4px solid $white;
+      letter-spacing: 4px;
+      animation: blink-caret 0.75s step-end infinite;
+    }
   }
 
   .image-container {
@@ -51,10 +59,13 @@
       margin-top: 0px;
     }
 
-    h2 {
+    .title-container {
       text-align: left;
-      font-size: 38px;
-      margin-bottom: 0px;
+
+      h2 {
+        font-size: 38px;
+        margin-bottom: 0px;
+      }
     }
 
     .image-container {
