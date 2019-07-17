@@ -239,6 +239,62 @@ const Data = [
     url: "https://hilton-cms-preprod.cbtalentnetwork.com/",
     logo: "Hilton.png",
     stacks: ["HTML5", "CSS3", "Bootstrap", "Sass", "Photoshop"]
+  },
+  {
+    id: "cs31",
+    name: "Royal Caribbean Cruises Ltd.",
+    type: "Career site",
+    url: "https://jobs.rclcareers.com/",
+    logo: "Royal-Caribbean-Cruises-Ltd.png",
+    stacks: ["HTML5", "CSS3", "Bootstrap", "Sass", "Photoshop"]
+  },
+  {
+    id: "cs32",
+    name: "PODS",
+    type: "Career site",
+    url: "https://careers.pods.com/",
+    logo: "PODS.png",
+    stacks: ["HTML5", "CSS3", "Bootstrap", "Sass", "Photoshop"]
+  },
+  {
+    id: "cs33",
+    name: "Sepura",
+    type: "Career site",
+    url: "https://sepuragroup.jobs.net/",
+    logo: "Sepura.png",
+    stacks: ["HTML5", "CSS3", "Bootstrap", "Sass", "Photoshop"]
+  },
+  {
+    id: "cs34",
+    name: "Whitlock",
+    type: "Career site",
+    url: "https://careers.whitlock.com/",
+    logo: "Whitlock.png",
+    stacks: ["HTML5", "CSS3", "Bootstrap", "Sass", "Photoshop"]
+  },
+  {
+    id: "cs35",
+    name: "Trusted Nurse Staffing",
+    type: "Career site",
+    url: "https://trustednursestaffing-cms-preprod.cbtalentnetwork.com/",
+    logo: "Trusted-Nurse-Staffing.png",
+    stacks: ["HTML5", "CSS3", "Bootstrap", "Sass", "Photoshop"]
+  },
+  {
+    id: "cs36",
+    name: "Startek",
+    type: "Career site",
+    url: "https://careers.startek.com/",
+    logo: "Startek.png",
+    stacks: ["HTML5", "CSS3", "Bootstrap", "Sass", "Photoshop"]
+  },
+  {
+    id: "cs37",
+    name: "Broadcast Music, Inc.",
+    type: "Career site",
+    url: "https://bmi-cms-preprod.cbtalentnetwork.com/",
+    logo: "Broadcast-Music-Inc.png",
+    stacks: ["HTML5", "CSS3", "Bootstrap", "Sass", "Photoshop"]
   }
 ];
 
