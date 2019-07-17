@@ -4,7 +4,7 @@ class Stack extends React.Component {
   render() {
     return (
       <div className="stack">
-        <img src={`/images/icons/${this.props.stack}.png`} className="img-responsive" alt={this.props.stack} />
+        <img src={`/images/stacks/${this.props.stack}.png`} className="img-responsive" alt={this.props.stack} />
       </div>
     );
   }

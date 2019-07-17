@@ -4,7 +4,7 @@
   h3 {
     color: $primary-color;
     text-align: center;
-    font-size: 30px;
+    font-size: 34px;
   }
 
   .portfolio-container {
@@ -15,9 +15,8 @@
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+    -ms-flex-line-pack: start;
+    align-content: flex-start;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
@@ -28,7 +27,7 @@
 @media (min-width: 768px) {
   .portfolio {
     h3 {
-      font-size: 34px;
+      font-size: 38px;
     }
 
     .portfolio-container {

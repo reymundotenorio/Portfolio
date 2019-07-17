@@ -14,7 +14,7 @@ class Projects extends React.Component {
   render() {
     return (
       <React.Fragment>
-        {this.state.data.map(item => {
+        {this.state.data.reverse().map(item => {
           return (
             <Project
               key={`project_${item.id}`}

@@ -1,15 +1,6 @@
 .intro {
-  background: $primary-color;
-  background: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    from($primary-color),
-    color-stop(65%, $secondary-color),
-    to($third-color)
-  );
-  background: linear-gradient(to bottom, $primary-color 0%, $secondary-color 65%, $third-color 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#{$primary-color}", endColorstr="#{$third-color}",GradientType=0 );
+  background-color: $primary-color;
+  background-image: linear-gradient(316deg, $primary-color 0%, $secondary-color 74%);
   padding: 40px 0px;
 
   h1 {
@@ -37,10 +28,6 @@
 
 @media (min-width: 768px) {
   .intro {
-    background: $primary-color;
-    background: linear-gradient(45deg, $primary-color 0%, $secondary-color 65%, $third-color 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#{$primary-color}", endColorstr="#{$third-color}",GradientType=1 );
-
     .flex-container {
       display: -webkit-box;
       display: -ms-flexbox;

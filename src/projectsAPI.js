@@ -301,7 +301,7 @@ const Data = [
     name: "TPF Supervisor System - Granada City Hall",
     type: "Desktop Application",
     url: "",
-    logo: "FTF-Supervisor-System.png",
+    logo: "TPF-Supervisor-System.png",
     stacks: ["JavaSE", "MySQL"]
   },
   {
@@ -310,14 +310,14 @@ const Data = [
     type: "Desktop Application",
     url: "",
     logo: "License-generator.png",
-    stacks: ["C#", "MySQL"]
+    stacks: ["C-Sharp", "MySQL"]
   },
   {
     id: "ws01",
     name: "Faculty of Sciences and Systems - Universidad Nacional de Ingeniería",
     type: "Website",
     url: "http://www.fcys.uni.edu.ni/",
-    logo: "FSS-UNI.png",
+    logo: "UNI.png",
     stacks: ["WordPress", "HTML5", "CSS3", "Bootstrap"]
   },
   {
