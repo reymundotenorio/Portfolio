@@ -295,6 +295,67 @@ const Data = [
     url: "https://bmi-cms-preprod.cbtalentnetwork.com/",
     logo: "Broadcast-Music-Inc.png",
     stacks: ["HTML5", "CSS3", "Bootstrap", "Sass", "Photoshop"]
+  },
+  {
+    id: "da01",
+    name: "TPF Supervisor System - Granada City Hall",
+    type: "Desktop Application",
+    url: "",
+    logo: "FTF-Supervisor-System.png",
+    stacks: ["JavaSE", "MySQL"]
+  },
+  {
+    id: "da02",
+    name: "License keys generator",
+    type: "Desktop Application",
+    url: "",
+    logo: "License-generator.png",
+    stacks: ["C#", "MySQL"]
+  },
+  {
+    id: "ws01",
+    name: "Faculty of Sciences and Systems - Universidad Nacional de Ingeniería",
+    type: "Website",
+    url: "http://www.fcys.uni.edu.ni/",
+    logo: "FSS-UNI.png",
+    stacks: ["WordPress", "HTML5", "CSS3", "Bootstrap"]
+  },
+  {
+    id: "ws02",
+    name: "Nicaragua Tattoos",
+    type: "Website",
+    url: "http://www.nicaraguatattoos.com/",
+    logo: "Nicaragua-Tattoos.png",
+    stacks: ["HTML5", "CSS3", "Bootstrap", "Sass", "Photoshop", "jQuery", "YouTube-API", "Instagram-API"]
+  },
+  {
+    id: "ws03",
+    name: "Dele Peso a sus Pesos",
+    type: "Website Tools",
+    url: "https://www.delepesoasuspesos.com/",
+    logo: "Dele-Peso-a-sus-Pesos.png",
+    stacks: ["WordPress", "HTML5", "CSS3", "Sass", "jQuery"]
+  },
+  {
+    id: "wa01",
+    name: "Better and Nice Produce Corp.",
+    type: "Web Application - eCommerce",
+    url: "http://www.betterandnice.com/",
+    logo: "BANP.png",
+    stacks: [
+      "Ruby-on-Rails",
+      "MySQL",
+      "AWS",
+      "Pusher",
+      "PayPal-API",
+      "Stripe-API",
+      "Twilio-API",
+      "SendGrid-API",
+      "HTML5",
+      "CSS3",
+      "Sass",
+      "jQuery"
+    ]
   }
 ];
 
