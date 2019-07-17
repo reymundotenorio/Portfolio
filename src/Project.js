@@ -1,5 +1,4 @@
 import React from "react";
-import "./Project.css";
 import Stack from "./Stack";
 
 class Project extends React.Component {

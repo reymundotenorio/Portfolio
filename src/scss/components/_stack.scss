@@ -1,4 +1,4 @@
-.portfolio .portfolio-container .project-card .stack-container {
+.stack-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -14,12 +14,12 @@
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   padding: 15px 0px 0px;
-  border-top: 1px solid #fff;
-}
+  border-top: 1px solid $white;
 
-.portfolio .portfolio-container .project-card .stack-container .stack {
-  -webkit-box-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
-  padding: 8px;
+  .stack {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    padding: 8px;
+  }
 }

@@ -1,0 +1,78 @@
+.intro {
+  background: $primary-color;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from($primary-color),
+    color-stop(65%, $secondary-color),
+    to($third-color)
+  );
+  background: linear-gradient(to bottom, $primary-color 0%, $secondary-color 65%, $third-color 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#{$primary-color}", endColorstr="#{$third-color}",GradientType=0 );
+  padding: 40px 0px;
+
+  h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 42px;
+
+    span {
+      display: block;
+    }
+  }
+
+  h2 {
+    text-align: center;
+    font-weight: normal;
+    font-size: 32px;
+  }
+
+  .image-container {
+    padding-top: 40px;
+    max-width: 480px;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .intro {
+    background: $primary-color;
+    background: linear-gradient(45deg, $primary-color 0%, $secondary-color 65%, $third-color 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#{$primary-color}", endColorstr="#{$third-color}",GradientType=1 );
+
+    .flex-container {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+      flex-direction: row;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      min-height: 100vh;
+    }
+
+    h1 {
+      text-align: left;
+      font-size: 50px;
+      margin-top: 0px;
+    }
+
+    h2 {
+      text-align: left;
+      font-size: 38px;
+      margin-bottom: 0px;
+    }
+
+    .image-container {
+      padding-top: 0px;
+      max-width: none;
+    }
+  }
+}

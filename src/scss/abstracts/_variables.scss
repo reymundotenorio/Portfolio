@@ -1,0 +1,33 @@
+// -----------------------------------------------------------------------------
+// This file contains all application-wide Sass variables.
+// -----------------------------------------------------------------------------
+
+/// Fonts
+$primary-font: "Source Sans Pro", sans-serif;
+$secondary-font: "Raleway", sans-serif;
+
+/// Font-size
+$body-font-size: 20px;
+
+/// Copy text
+/// @type Color
+$text-color: #222222 !default;
+
+/// Default colors
+$white: #fff;
+$black: #000;
+$grey: #ccc;
+$wrongurl-color: #eee;
+
+// Company color pallete
+$primary-color: #041c82;
+$secondary-color: #00122b;
+$third-color: #440784;
+
+// Button and hover color
+$btn-color: $third-color;
+$hover-color: $third-color;
+
+$body-color: #eaebec;
+
+$base-url: "/assets/" !default;

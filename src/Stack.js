@@ -1,5 +1,4 @@
 import React from "react";
-import "./Stack.css";
 
 class Stack extends React.Component {
   render() {
