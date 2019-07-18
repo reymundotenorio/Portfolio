@@ -64,14 +64,14 @@ const Data = [
     logo: "MasTec-Network-Solutions.png",
     stacks: ["HTML5", "CSS3", "Bootstrap", "Sass", "Photoshop"]
   },
-  {
-    id: "cs09",
-    name: "Nando's",
-    type: "Career site",
-    url: "https://nandos-cms-preprod.cbtalentnetwork.com/",
-    logo: "Nandos.png",
-    stacks: ["HTML5", "CSS3", "Bootstrap", "Sass", "Photoshop"]
-  },
+  // {
+  //   id: "cs09",
+  //   name: "Nando's",
+  //   type: "Career site",
+  //   url: "https://nandos-cms-preprod.cbtalentnetwork.com/",
+  //   logo: "Nandos.png",
+  //   stacks: ["HTML5", "CSS3", "Bootstrap", "Sass", "Photoshop"]
+  // },
   {
     id: "cs10",
     name: "CareerBuilder Careers",
@@ -104,14 +104,14 @@ const Data = [
     logo: "Securitas-Canada.png",
     stacks: ["HTML5", "CSS3", "Bootstrap", "Sass", "Photoshop"]
   },
-  {
-    id: "cs14",
-    name: "Naurex Group",
-    type: "Career site",
-    url: "https://naurexgroup.jobs.net/",
-    logo: "Naurex-Group.png",
-    stacks: ["HTML5", "CSS3", "Bootstrap", "Sass", "Photoshop"]
-  },
+  // {
+  //   id: "cs14",
+  //   name: "Naurex Group",
+  //   type: "Career site",
+  //   url: "https://naurexgroup.jobs.net/",
+  //   logo: "Naurex-Group.png",
+  //   stacks: ["HTML5", "CSS3", "Bootstrap", "Sass", "Photoshop"]
+  // },
   {
     id: "cs15",
     name: "Holman Enterprises",
@@ -120,14 +120,14 @@ const Data = [
     logo: "Holman-Enterprises.png",
     stacks: ["HTML5", "CSS3", "Bootstrap", "Sass", "Photoshop"]
   },
-  {
-    id: "cs16",
-    name: "CALIBRE",
-    type: "Career site",
-    url: "https://careers.calibresys.com/",
-    logo: "CALIBRE.png",
-    stacks: ["HTML5", "CSS3", "Bootstrap", "Sass", "Photoshop"]
-  },
+  // {
+  //   id: "cs16",
+  //   name: "CALIBRE",
+  //   type: "Career site",
+  //   url: "https://careers.calibresys.com/",
+  //   logo: "CALIBRE.png",
+  //   stacks: ["HTML5", "CSS3", "Bootstrap", "Sass", "Photoshop"]
+  // },
   {
     id: "cs17",
     name: "Mogel",
@@ -256,22 +256,22 @@ const Data = [
     logo: "PODS.png",
     stacks: ["HTML5", "CSS3", "Bootstrap", "Sass", "Photoshop"]
   },
-  {
-    id: "cs33",
-    name: "Sepura",
-    type: "Career site",
-    url: "https://sepuragroup.jobs.net/",
-    logo: "Sepura.png",
-    stacks: ["HTML5", "CSS3", "Bootstrap", "Sass", "Photoshop"]
-  },
-  {
-    id: "cs34",
-    name: "Whitlock",
-    type: "Career site",
-    url: "https://careers.whitlock.com/",
-    logo: "Whitlock.png",
-    stacks: ["HTML5", "CSS3", "Bootstrap", "Sass", "Photoshop"]
-  },
+  // {
+  //   id: "cs33",
+  //   name: "Sepura",
+  //   type: "Career site",
+  //   url: "https://sepuragroup.jobs.net/",
+  //   logo: "Sepura.png",
+  //   stacks: ["HTML5", "CSS3", "Bootstrap", "Sass", "Photoshop"]
+  // },
+  // {
+  //   id: "cs34",
+  //   name: "Whitlock",
+  //   type: "Career site",
+  //   url: "https://careers.whitlock.com/",
+  //   logo: "Whitlock.png",
+  //   stacks: ["HTML5", "CSS3", "Bootstrap", "Sass", "Photoshop"]
+  // },
   {
     id: "cs35",
     name: "Trusted Nurse Staffing",

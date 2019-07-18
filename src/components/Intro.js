@@ -23,6 +23,12 @@ class Intro extends React.Component {
             </div>
           </div>
         </div>
+
+        <div className="go-down">
+          <a href="#portfolio" target="_self" title="Go to Portfolio">
+            <i className="fa fa-chevron-down" aria-hidden="true" />
+          </a>
+        </div>
       </section>
     );
   }

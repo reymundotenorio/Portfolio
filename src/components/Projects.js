@@ -1,5 +1,5 @@
 import React from "react";
-import Data from "./projectsAPI";
+import Data from "../API/projectsAPI";
 import Project from "./Project";
 
 class Projects extends React.Component {

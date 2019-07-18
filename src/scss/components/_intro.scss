@@ -1,7 +1,10 @@
 .intro {
   background-color: $primary-color;
   background-image: linear-gradient(316deg, $primary-color 0%, $secondary-color 74%);
-  padding: 40px 0px;
+
+  .flex-container {
+    padding-top: 40px;
+  }
 
   h1 {
     text-align: center;
@@ -23,6 +26,7 @@
 
       border-right: 4px solid $white;
       letter-spacing: 4px;
+      -webkit-animation: blink-caret 0.75s step-end infinite;
       animation: blink-caret 0.75s step-end infinite;
     }
   }
@@ -31,6 +35,52 @@
     padding-top: 40px;
     max-width: 480px;
     margin: 0 auto;
+  }
+
+  .go-down {
+    padding-bottom: 40px;
+
+    a {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      border-radius: 100%;
+      height: 50px;
+      width: 50px;
+      border: 2px solid $white;
+      color: $white;
+      margin: 0 auto;
+      text-decoration: none;
+      background-color: transparent;
+
+      @include on-event {
+        background-color: $white;
+
+        i {
+          color: $secondary-color;
+        }
+      }
+
+      i {
+        font-size: 20px;
+        -webkit-transform: translateY(-8px);
+        transform: translateY(-8px);
+        -webkit-transition: color 0.3s ease;
+        transition: color 0.3s ease;
+        -webkit-animation: moveDown 1.8s 0.3s infinite ease-in-out;
+        animation: moveDown 1.8s 0.3s infinite ease-in-out;
+      }
+    }
   }
 }
 
@@ -50,7 +100,7 @@
       -webkit-box-pack: center;
       -ms-flex-pack: center;
       justify-content: center;
-      min-height: 100vh;
+      min-height: calc(100vh - 90px);
     }
 
     h1 {
@@ -72,5 +122,39 @@
       padding-top: 0px;
       max-width: none;
     }
+  }
+}
+
+@-webkit-keyframes moveDown {
+  0% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+  }
+
+  50% {
+    -webkit-transform: translateY(8px);
+    transform: translateY(8px);
+  }
+
+  100% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+  }
+}
+
+@keyframes moveDown {
+  0% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+  }
+
+  50% {
+    -webkit-transform: translateY(8px);
+    transform: translateY(8px);
+  }
+
+  100% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
   }
 }
