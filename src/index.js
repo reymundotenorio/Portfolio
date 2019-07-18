@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './scss/main.scss';
-import Intro from './Intro';
-import Projects from './Projects';
+import Intro from './components/Intro';
+import Projects from './components/Projects';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(<Intro />, document.getElementById('root'));
